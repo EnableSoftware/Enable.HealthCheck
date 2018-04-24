@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <CodeAnalysisRuleSet>../../Analysers.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>Enable.HealthCheck</RootNamespace>
+    <AssemblyName>Enable.HealthCheck.Abstractions</AssemblyName>
+    <PackageId>Enable.HealthCheck.Abstractions</PackageId>
+    <Title>Enable ASP.NET Core Health Check Abstractions</Title>
+    <Description>Abstractions to support web application URL health monitoring.</Description>
+    <Authors>Enable · enable.com</Authors>
+    <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
