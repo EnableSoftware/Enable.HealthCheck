@@ -16,7 +16,7 @@ namespace Enable.HealthCheck
             _options = options;
         }
 
-        public async Task InvokeAsync(
+        public async Task Invoke(
             HttpContext context,
             IHealthCheckService healthService,
             IHealthCheckErrorHandler errorHandler)
