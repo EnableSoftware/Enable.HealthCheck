@@ -10,7 +10,7 @@
     <Description>ASP.NET Core middleware to support web application URL health monitoring.</Description>
     <Authors>Enable · enable.com</Authors>
     <PackageProjectUrl>https://github.com/EnableSoftware/Enable.HealthCheck</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.HealthCheck/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/EnableSoftware/Enable.HealthCheck/main/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://github.com/EnableSoftware.png</PackageIconUrl>
     <PackageTags>aspnetcore;health-check</PackageTags>
   </PropertyGroup>
